@@ -1,0 +1,41 @@
+{
+  "name": "webplayer",
+  "version": "0.0.1",
+  "homepage": "https://github.com/stevennick/webplayer",
+  "authors": [
+    "Stevennick Ciou <stevennick@gmail.com>"
+  ],
+  "description": "A HTML 5 web video player based on video.js',",
+  "main": "dist/webplayer/webplayer.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "webplayer",
+    "html5",
+    "flash",
+    "video",
+    "hls",
+    "vast",
+    "vmap",
+    "player"
+  ],
+  "license": "Apache License, Version 2.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "vast-client-js": "dailymotion/vast-client-js#~1.3.3",
+    "video.js": "videojs/video.js#~4.12.4",
+    "videojs-contrib-ads": "videojs/videojs-contrib-ads#~1.1.0",
+    "videojs-contrib-hls": "videojs/videojs-contrib-hls#~0.11.1",
+    "videojs-contrib-media-sources": "videojs/videojs-contrib-media-sources#~0.3.1",
+    "videojs-vast-plugin": "theonion/videojs-vast-plugin#~0.2.1"
+  }
+}
